@@ -1,4 +1,4 @@
-[Replace this with your Project Title]
+[BitSqueezer]
 
 |id|Name|
 |k24-2581|Muhammad Musaddiq Arbi|
@@ -24,4 +24,5 @@
 
 ## Data Structures that will be used
 [This project will primarily utilize three key data structures: Hash Maps, a Priority Queue, and a Binary Tree. During the compression phase, a Hash Map will be essential for efficiently storing the frequency of each character by mapping character keys to their integer counts. Following this, a Priority Queue, implemented as a Min-Heap, will be used to build the Huffman tree; it will store tree nodes and allow for the efficient retrieval and merging of the two nodes with the lowest frequencies, which is central to the greedy algorithm. The Binary Tree is the core structure itself, representing the optimal prefix-free codes; its leaf nodes will store the actual characters, and the path from the root to a leaf will define that character's new binary code. Finally, a second Hash Map will be used to store these generated codes for fast lookup during the file encoding process. During decompression, this same Binary Tree structure will be reconstructed from the file's header and traversed to decode the bitstream back into the original file.] 
+
 
